@@ -20,7 +20,7 @@ function checkPassword() {
     
     if (input === correctPassword) {
         // Redirect to the quiz website
-        window.location.href = 'https://mathpremiumquiz.github.io/Mathpremiumquiz/';
+        window.location.href = 'https://mathpremiumquiz.github.io/mathpremiumquizonly/';
     } else {
         errorMsg.style.display = 'block';
         // Clear the input field
